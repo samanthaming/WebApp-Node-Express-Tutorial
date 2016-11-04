@@ -169,3 +169,22 @@ bookRouter.route('/single') /* /Books/single */
 // Step 3
 app.use('/Books', bookRouter);
 ```
+
+## MongoDB
+
+### Setting up on Windows
+
+#### 1. Make DB folder
+
+`md \data\db`
+
+#### 2. Add to Environment 
+
+1. Right click mongod and copy the "Location"
+
+2. Create New User Variable 
+
+```md 
+Variable name: PATH
+Variable value: C:\Program Files\MongoDB\Server\3.2\bin
+```
