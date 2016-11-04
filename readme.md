@@ -114,3 +114,15 @@ To run it: $ `gulp`
 ## Gulp Inject 
 
 `npm install gulp-inject --save-dev`
+
+## Gulp nodemon
+
+`npm install gulp-nodemon --save-dev`
+
+_gulpfile.js_
+
+```javascript
+var  nodemon = require('gulp-nodemon')
+```
+
+run `gulp serve`
