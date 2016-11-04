@@ -172,6 +172,9 @@ app.use('/Books', bookRouter);
 
 ## MongoDB
 
+- download mongodb 
+- `npm install mongodb --save`
+
 ### Setting up on Windows
 
 #### 1. Make DB folder
@@ -188,3 +191,14 @@ app.use('/Books', bookRouter);
 Variable name: PATH
 Variable value: C:\Program Files\MongoDB\Server\3.2\bin
 ```
+
+### MongoDB cmd 
+
+To serve: $ mongod  
+
+```javascript
+$ mongo libraryApp
+$ show collections
+$ db.books.find()
+``` 
+
