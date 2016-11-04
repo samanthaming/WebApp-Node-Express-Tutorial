@@ -110,3 +110,7 @@ To run it: $ `gulp`
 ## Gulp Wiredep
 
 `npm install wiredep --save-dev`
+
+## Gulp Inject 
+
+`npm install gulp-inject --save-dev`
