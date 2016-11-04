@@ -49,7 +49,7 @@ var router = function (nav) {
       res.render('bookListView', {
         title: 'Books',
         nav: nav,
-        books
+        books: books
       });
     });
 
@@ -64,6 +64,6 @@ var router = function (nav) {
     });
 
   return bookRouter;
-}
+};
 
 module.exports = router;
