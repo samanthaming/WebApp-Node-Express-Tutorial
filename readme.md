@@ -147,3 +147,24 @@ app.get('/', function (req, res) {
 ```javascript 
 app.set('view engine', '.ejs');
 ```
+
+## Router
+
+```javascript
+// Step 1
+var bookRouter = express.Router();
+
+// Step 2
+bookRouter.route('/')
+    .get(function(req, res) {
+        res.send('Hello Books');
+    });
+
+bookRouter.route('/single') /* /Books/single */
+    .get(function(req, res) {
+        res.send('Hello Single Book');
+    });
+
+// Step 3
+app.use('/Books', bookRouter);
+```
