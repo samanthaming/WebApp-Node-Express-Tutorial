@@ -124,3 +124,7 @@ run `gulp serve`
 ## Jade 
 
 `npm install --save jade`
+
+## Handlebars
+
+`npm install --save express-handlebars`
