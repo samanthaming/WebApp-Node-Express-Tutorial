@@ -76,9 +76,11 @@ app.use(express.static('public'));
 
 ## Gulp 
 
-`npm install -g gulp`  
-`npm install gulp --save-dev`
-`npm install gulp-nodemon --save`
+- `npm install -g gulp`  
+- `npm install gulp --save-dev`
+- `npm install gulp-nodemon --save`
+
+- `npm install gulp-eslint --save-dev`
 
 #### 1) Create gulp file 
 
