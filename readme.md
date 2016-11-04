@@ -128,3 +128,22 @@ run `gulp serve`
 ## Handlebars
 
 `npm install --save express-handlebars`
+
+```javascript 
+var handlebars = require('express-handlebars');
+app.engine('.hbs', handlebars({extname: '.hbs'}));
+
+app.set('view engine', '.hbs');
+
+app.get('/', function (req, res) {
+    res.render('index', { title:'Hello from render', list: ['a','b']});
+});
+```
+
+## EJS 
+
+`npm install --save ejs`
+
+```javascript 
+app.set('view engine', '.ejs');
+```
