@@ -119,10 +119,8 @@ To run it: $ `gulp`
 
 `npm install gulp-nodemon --save-dev`
 
-_gulpfile.js_
-
-```javascript
-var  nodemon = require('gulp-nodemon')
-```
-
 run `gulp serve`
+
+## Jade 
+
+`npm install --save jade`
