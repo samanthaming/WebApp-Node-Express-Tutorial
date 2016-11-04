@@ -1,0 +1,21 @@
+{
+  "name": "library",
+  "description": "Library Tutorial",
+  "main": "app.js",
+  "authors": [
+    "Samantha Ming <samantham@iqmetrix.com>"
+  ],
+  "license": "ISC",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "font-awesome": "^4.7.0"
+  }
+}

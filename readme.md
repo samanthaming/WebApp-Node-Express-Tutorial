@@ -43,6 +43,7 @@ app.listen(port, function (err) {
 ## Bower 
 
 `npm install bower -g`
+`bower init` (enter through with default)
 
 #### 1) Install Bower Packages
 
@@ -53,14 +54,24 @@ app.listen(port, function (err) {
 
 ```javascript 
 {
-    "directory": "public/lib"
+    "directory": "public/lib" // this will be the place where bower install its packages  
 }
 ```
+
+And then run `bower install ...`
 
 #### 4) Update the HTML files to use the new path 
 
 ```javascript
+// <script src="js/bootstrap.min.js"></script>
 <script src="lib/bootstrap/dist/js/bootstrap.min.js"></script>
+```
+
+We do above, because we point our static folder at public.  
+note: there is a better way using gulp
+
+```javascript
+app.use(express.static('public')); 
 ```
 
 ## Gulp 
