@@ -200,5 +200,8 @@ To serve: $ mongod
 $ mongo libraryApp
 $ show collections
 $ db.books.find()
+
+// Remove everything from books
+db.books.remove({})
 ``` 
 
