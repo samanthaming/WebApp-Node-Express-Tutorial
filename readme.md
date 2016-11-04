@@ -157,7 +157,7 @@ var bookRouter = express.Router();
 // Step 2
 bookRouter.route('/')
     .get(function(req, res) {
-        res.send('Hello Books');
+        res.render('books'); // it's looking at what we set in "app.set('views', './src/views');"
     });
 
 bookRouter.route('/single') /* /Books/single */
