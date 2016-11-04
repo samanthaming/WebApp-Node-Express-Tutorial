@@ -108,3 +108,5 @@ gulp.task('default', function(){
 To run it: $ `gulp`
 
 ## Gulp Wiredep
+
+`npm install wiredep --save-dev`
